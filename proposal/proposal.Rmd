@@ -19,7 +19,7 @@ This dataset came from a website called Public Health Scotland at opendata.nhs.s
 ```{r, eval=FALSE}
 glimpse(bmi)
 ```
-I try to knit without `eval=FALSE` but I can't because there is an error that says "! object `bmi` not found" and it cand read the excel file either, and I don't know how to switch it from excel to csv like the original is.
+I try to knit without `eval=FALSE` but I can't because there is an error that says "! object `bmi` not found" and it can't read the excel file either when I try to read it, and I don't know how to switch it from excel to csv like the original is.
 
 
 ## 3. Data analysis plan
