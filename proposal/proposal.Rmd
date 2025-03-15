@@ -10,16 +10,20 @@ library(broom)
 ```
 
 ## 1. Introduction
-As the school year time goes by, is there a greater change in the BMIs of the students? 
+As the school year time goes by, is there a greater change in the BMIs of the students? And what is the percentage of each sex for each BMI risk?
 
 This dataset came from a website called Public Health Scotland at opendata.nhs.scot. This data is collected with children from the years 2001-2023, studied for seeing who is at risk of being underweight, healthy, overweight, or obese. This dataset has 516 cases and 10 variables.
 
 
 ## 2. Data
-
+```{r, eval=FALSE}
+glimpse(bmi)
+```
+I try to knit without `eval=FALSE` but I can't because there is an error that says "! object `bmi` not found" and it cand read the excel file either, and I don't know how to switch it from excel to csv like the original is.
 
 
 ## 3. Data analysis plan
-
+I am going to make a bar graph or a histogram with the x being the `SchoolYear` and y equaling the percent of each risk, filling the bars based on `sex` and faceting based on risk after I create a new variable involving all the risk variables. If all else fails, I will have to make each individual graph with y as the risk variables. The risk variables are known as `EpiUnderweight`, `EpiHealthyWeight`, `EpiOverweight`, `EpiObese`, and `EpiOverweightAndObese`.
+The results for my hypothesis question will be based on how the risk percentages for each risk variable changes throughout the school years, and the percentages of each risk for each `sex`. 
 
 
