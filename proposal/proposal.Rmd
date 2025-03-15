@@ -1,6 +1,6 @@
 ---
 title: "Project proposal"
-author: "Your name"
+author: "Riley A. Moffat"
 output: github_document
 ---
 
@@ -10,7 +10,9 @@ library(broom)
 ```
 
 ## 1. Introduction
+As the school year time goes by, is there a greater change in the BMIs of the students? 
 
+This dataset came from a website called Public Health Scotland at opendata.nhs.scot. This data is collected with children from the years 2001-2023, studied for seeing who is at risk of being underweight, healthy, overweight, or obese. This dataset has 516 cases and 10 variables.
 
 
 ## 2. Data
