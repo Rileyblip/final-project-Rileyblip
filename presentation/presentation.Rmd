@@ -1,7 +1,7 @@
 ---
-title: "Presentation title"
+title: "BMI of Students Throughout the School Year"
 subtitle: "Presentation subtitle (if any)"
-author: "Your Name"
+author: "Riley A. Moffat"
 institute: "Houghton University"
 date: "`r Sys.Date()`"
 output:
@@ -30,7 +30,8 @@ knitr::opts_chunk$set(fig.retina = 3, dpi = 300, fig.width = 6, fig.asp = 0.618,
 ```
 
 ```{r load-data, include=FALSE}
-# Load your data here
+library(readxl)
+read_excel("../data/bmi.xlsx")
 ```
 
 ```{r}
