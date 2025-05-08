@@ -120,10 +120,3 @@ ggplot(data = bmi, aes(x = SchoolYear, y = EpiObese, color = Sex)) +
   labs(x = "School Year", y = "Obese Students", title = "Obese Students Through the School Year by Sex")
 ```
 
----
-
-```{r}
-ggplot(data = bmi, aes(x = SchoolYear, y = EpiOverweightAndObese, color = Sex)) +
-  geom_boxplot() +
-  labs(x = "School Year", y = "Overweight and Obese Students", title = "Overweight and Obese Students Through the School Year by Sex")
-```
