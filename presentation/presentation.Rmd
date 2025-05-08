@@ -1,5 +1,5 @@
 ---
-title: "BMI of Students Throughout the School Year"
+title: "BMI of Students in Scotland Throughout the School Year"
 author: "Riley A. Moffat"
 institute: "Houghton University"
 date: "`r Sys.Date()`"
