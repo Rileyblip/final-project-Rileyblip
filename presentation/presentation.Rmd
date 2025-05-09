@@ -90,7 +90,7 @@ class: inverse, center, middle
 
 ---
 
-```{r}
+```{r, eval=TRUE}
 ggplot(data = bmi, aes(x = SchoolYear, y = EpiUnderweight, color = Sex)) +
   geom_boxplot() +
   labs(x = "School Year", y = "Underweight Students", title = "Underweight Students Through the School Year by Sex")
@@ -98,15 +98,15 @@ ggplot(data = bmi, aes(x = SchoolYear, y = EpiUnderweight, color = Sex)) +
 
 ---
 
-```{r}
+```{r, eval=TRUE}
 ggplot(data = bmi, aes(x = SchoolYear, y = EpiHealthyWeight, color = Sex)) +
   geom_boxplot() +
-  labs(x = "School Year", y = "Healthyweight Students", title = "Healtyweight Students Through the School Year by Sex")
+  labs(x = "School Year", y = "Healthy Weight Students", title = "Healty Weight Students Through the School Year by Sex")
 ```
 
 ---
 
-```{r}
+```{r, eval=TRUE}
 ggplot(data = bmi, aes(x = SchoolYear, y = EpiOverweight, color = Sex)) +
   geom_boxplot() +
   labs(x = "School Year", y = "Overweight Students", title = "Overweight Students Through the School Year by Sex")
@@ -114,7 +114,7 @@ ggplot(data = bmi, aes(x = SchoolYear, y = EpiOverweight, color = Sex)) +
 
 ---
 
-```{r}
+```{r, eval=TRUE}
 ggplot(data = bmi, aes(x = SchoolYear, y = EpiObese, color = Sex)) +
   geom_boxplot() +
   labs(x = "School Year", y = "Obese Students", title = "Obese Students Through the School Year by Sex")
